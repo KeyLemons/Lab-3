@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class AddressBook {
+
+    private ArrayList<BuddyInfo> buddies;
+
+    public AddressBook(){
+
+    }
+
+    public void addBuddy(BuddyInfo buddy) {
+        this.buddies.add(buddy);
+    }
+
+    public void removeBuddy(BuddyInfo buddy) {
+        this.buddies.remove(buddy);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Address Book");
+    }
+
+}
