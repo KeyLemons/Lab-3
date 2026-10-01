@@ -13,4 +13,8 @@ public class BuddyInfo{
 
         System.out.println("Hello " + Buddy.name);
     }
+
+    public String getName(){
+        return this.name;
+    }
 }
