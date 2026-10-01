@@ -4,13 +4,9 @@ public class BuddyInfo{
 
     public BuddyInfo(String name, String school, int phoneNumber) {
         this.name = name;
-        this.school = school;
-        this.phoneNumber = phoneNumber;
     }
 
     private String name;
-    private String school;
-    private int phoneNumber;
 
     static void main() {
         BuddyInfo Buddy = new BuddyInfo("Homer", "Carleton", 143);
